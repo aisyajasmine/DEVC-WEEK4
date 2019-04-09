@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-idth, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo|Karla|Pacifico" rel="stylesheet">
+
+    
+    <title>Final Project | Hacktiv8</title>
+  </head>
+
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-image: url('../img/disk.jpg')">
+          <a class="navbar-brand" style="color: white; font-size: 30px" href="home.html">Rock Your Soul!</a>
+          <button class="navbar-toggler" type="button" data-target="#mymenu" data-toggle="collapse" aria-controls="mymenu" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mymenu">
+                  <div class="navbarnya">
+                  <ul class="navbar-nav mr.auto">
+                    <li class="nav.item">
+                      <a href="index.html" class="nav-link" style="color: white">Explore</a>
+                    </li>
+                    <li class="nav.item">
+                      <a href="playlist.html" class="nav-link" style="color: white">Playlists</a>
+                    </li>
+                    <li class="nav.item">
+                      <a href="album.html" class="nav-link active" style="color: white">Albums</a>
+                    </li>
+                    <li class="nav.item">
+                      <a href="contact.html" class="nav-link" style="color: white">Contact Us</a>
+                    </li>
+                  </ul>  			
+                  </div>
+                  </div>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+              </form>
+        </nav>
+        
+        <div class="container">
+                <nav aria-label="breadcrumb" style="margin-top: 10px;">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Explore</li>
+                          <li class="breadcrumb-item active" aria-current="page">Albums</li>
+                        </ol>
+                      </nav>
+                      <hr size="40px" color="black">
+                      <h1 class="display-4" style="text-align: center">Albums</h1>
+                      <hr size="40px" color="black"> 
+
+                      <div class="row" style="margin-top: 20px">
+                            <div class="col-sm-4">
+                                <img src="../img/road.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Abbey Road - The Beatles</h5>
+                                  <p class="card-text">Price : $13.80,-</p>
+                                </div>
+                             </div>
+                          </div>
+                     
+                            <div class="col-sm-4">
+                                <img src="../img/help.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Help - The Beatles</h5>
+                                  <p class="card-text">Price : $11.20,-</p>
+                                </div>
+                             </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                                <img src="../img/stick.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Sticky Fingers - The Rolling Stones</h5>
+                                  <p class="card-text">Price : $10.80,-</p>
+                                </div>
+                             </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                                <img src="../img/opera.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">A Night At The Opera - Queen</h5>
+                                  <p class="card-text">Price : $10.75,-</p>
+                                </div>
+                             </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                                <img src="../img/suck.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Suck It And See - Arctic Monkeys</h5>
+                                  <p class="card-text">Price : $7.80,-</p>
+                                </div>
+                             </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                                <img src="../img/rej.jpg" class="card-img-top" alt="...">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">The Chosen Reject - Nirvana</h5>
+                                  <p class="card-text">Price : $9.70,- </p>
+                                </div>
+                             </div>
+                          </div>
+                    </div>
+
+                    <hr size="40px" color="black"> 
+                    <div class="container">
+                            <div class="formnya">
+                            <h1 class="animated infinite fadeInDown delay-1s" style="margin-top: 20px; text-align:center; font-size: 40px; font-family: 'Pacifico', cursive;">Form Order Albums</h1>
+                           
+                            <form action="https://formspree.io/eprasetianti@gmail.com" method="POST" />
+                            
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Input Your Email" name="email">
+                            
+                            <div class="form-group">
+                                <label for="nama">Your Name</label>
+                                <input type="nama" class="form-control" id="nama" aria-describedby="namaHelp"
+                                    placeholder="Input Your Name" name="nama">
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="order">Orders</label>
+                                    <textarea class="form-control" id="order" rows="3" placeholder="Input Your Order" name="order"></textarea>
+                                      </div>
+                            <div class="form-group">
+                                    <label for="address">Address</label>
+                                    <textarea class="form-control" id="address" rows="3" placeholder="Input Your Valid Address" name="address"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark" style="margin-bottom: 10px">Order</button>
+                            </form>
+                        </div>
+                        </div>
+    </div>
+
+              <div class="footer">
+                Created by Aisyah Farisa Jasmine
+              </div>
+
+            
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

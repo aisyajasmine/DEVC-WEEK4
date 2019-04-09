@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: all;
+  
+  }
+
+h1{
+    font-family: 'Dancing Script', cursive; 
+    text-align: center; 
+    margin-top: 200px;
+    color: white;
+    font-size: 90px;
+  }
+
+a{
+    font-family: 'Amatic SC', cursive;
+    color: 	#93f9ca;
+    font-size: 50px; 
+    align: center;
+    border-style: groove;
+    border-color:	#f2f406;
+    margin-left: 300px;
+  }
